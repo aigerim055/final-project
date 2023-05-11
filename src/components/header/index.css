@@ -1,0 +1,58 @@
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height */
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #523526
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px ;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-buttons button {
+    background: unset;
+    border: none;
+    cursor: pointer;
+}
+
+
+.custom-button button{
+    background-color: #ffac81;
+    /*background-image */
+
+    /*background-color: #DE6E45;*/
+    border-radius: 30px;
+    padding: 12px 30px;
+    color: #fff;
+
+    border: none;
+    cursor: pointer;
+}
+
+header {
+    background: #ECCDB4;
+}
