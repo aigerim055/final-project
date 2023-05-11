@@ -1,0 +1,82 @@
+.meal-card-wrapper {
+    background-color: #F1F1F1;
+    border-radius: 16px;
+
+    position: absolute;
+    width: 245px;
+    height: 270px;
+    text-align: center;
+}
+
+.meal-card {
+    position: relative;
+    top: -86px;
+    text-align: center;
+    /*padding: 50px;*/
+}
+.meal-card img {
+    display: block;
+    margin: 0 auto;
+    width: 170px;
+}
+
+.subtitle {
+    font-family: 'Times New Roman', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    color: #DE6E45;
+    padding-bottom: 80px;
+}
+
+.meal-card h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px !important;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    height: 60px;
+    /* black */
+    padding: 10px;
+    color: #313131;
+}
+
+.meal-card h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #313131;
+}
+
+.meal-card-wrapper button {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    color: #F1F1F1;
+    border: none;
+    background: #DE6E45;
+    box-shadow: -4px 5px 29px rgba(222, 110, 69, 0.25), 4px -4px 39px rgba(222, 110, 69, 0.4);
+    border-radius: 16px;
+
+    position: absolute;
+    bottom: -20px;
+
+    display: block;
+    margin-left: 30px;
+}
