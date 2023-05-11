@@ -7,6 +7,7 @@ import {useEffect} from "react";
 import {getCategories, getPopularMeals} from "./redux/action/mealAction";
 import MealPage from "./pages/MealPage";
 import BasketPage from "./pages/BasketPage";
+import MenuPage from "./components/Menu";
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
                     <Route path={'/contacts'} element={<ContactsPage />}/>
                     <Route path={'/meal-page'} element={<MealPage/>}/>
                     <Route path={'/basket'} element={<BasketPage/>}/>
+                    <Route path={'/menu'} element={<MenuPage/>}/>
 
                 </Routes>
             </BrowserRouter>

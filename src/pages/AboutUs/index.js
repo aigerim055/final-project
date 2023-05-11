@@ -5,7 +5,6 @@ import HowStartImg from './images/image-2.png'
 import AboutProjectImg from './images/image-3.png'
 import AboutCustomersImg from './images/image-4.png'
 import MainImage from './images/macaronny.png'
-import Footer from "../../components/Footer";
 import Header from "../../components/header";
 
 
