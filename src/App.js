@@ -4,7 +4,7 @@ import AboutUsPage from "./pages/AboutUs";
 import ContactsPage from "./pages/ContactsPage";
 import {useDispatch} from "react-redux";
 import {useEffect} from "react";
-import {getPopularMeals} from "./redux/action/mealAction";
+import {getCategories, getPopularMeals} from "./redux/action/mealAction";
 
 function App() {
 
@@ -13,6 +13,11 @@ function App() {
     useEffect(() => {
         dispatch(getPopularMeals())
     }, [])
+
+    // useEffect(() => {
+    //     dispatch(getCategories())
+    // })
+
 
 
   return (
