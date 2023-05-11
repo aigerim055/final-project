@@ -6,6 +6,7 @@ import {useDispatch} from "react-redux";
 import {useEffect} from "react";
 import {getCategories, getPopularMeals} from "./redux/action/mealAction";
 import MealPage from "./pages/MealPage";
+import BasketPage from "./pages/BasketPage";
 
 function App() {
 
@@ -29,6 +30,8 @@ function App() {
                     <Route path={'/about-us'} element={<AboutUsPage/>}/>
                     <Route path={'/contacts'} element={<ContactsPage />}/>
                     <Route path={'/meal-page'} element={<MealPage/>}/>
+                    <Route path={'/basket'} element={<BasketPage/>}/>
+
                 </Routes>
             </BrowserRouter>
         </>

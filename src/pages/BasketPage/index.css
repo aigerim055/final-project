@@ -1,0 +1,132 @@
+
+
+.PageBackground {
+    background-image: url("./images/basket-background.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding-bottom: 60px;
+}
+.basket-border {
+    background: #F1F1F1;
+    box-shadow: -6px -4px 19px rgba(0, 0, 0, 0.25), 7px 8px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+padding: 50px;
+    margin-bottom: 60px;
+}
+.basket-border h2 {
+    font-family: 'Montserrat' , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #523526;
+    margin-bottom: 45px;
+}
+.in-basket-border {
+    background: #F8F8F8;
+    box-shadow: -3px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 50px;
+}
+.in-basket-border p {
+    font-family: 'Montserrat' , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+}
+.price {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+.price p {
+    font-weight: 600;
+}
+.order-info {
+    display: flex;
+    align-items: center;
+    padding-bottom: 48px;
+    width: 100%;
+    border-bottom: 1px dashed #523526;
+    margin-bottom: 40px;
+}
+.order-info img {
+    width: 160px;
+}
+.info-meal  {
+    margin: 0 40px;
+}
+.info-meal h3 {
+    font-family: 'Montserrat' , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #523526;
+    margin-bottom: 20px;
+}
+.info-meal p {
+    font-family: 'Montserrat' , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.07em;
+    color: #000000;
+}
+
+.amount {
+    display: flex;
+    gap: 10px;
+}
+.amount img {
+    width: 30px;
+}
+.info-price {
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 35px;
+}
+ h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.07em;
+    color: #DE6E45;
+}
+ .order {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .order a button {
+     font-family: 'Montserrat', sans-serif;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 32px;
+     line-height: 39px;
+     letter-spacing: 0.07em;
+     text-transform: uppercase;
+     background: #DE6E45;
+     border-radius: 32px;
+     color: white;
+     padding: 15px 60px;
+     border: none;
+     margin-right: 40px;
+ }
