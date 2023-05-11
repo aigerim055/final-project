@@ -6,7 +6,6 @@ nav {
 }
 
 nav a {
-
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -14,15 +13,23 @@ nav a {
     /* identical to box height */
     text-decoration: none;
     text-transform: uppercase;
-
     color: #523526
+}
+
+nav a:hover{
+    color: #fff;
+}
+
+nav a:focus {
+    color: #fff;
+    text-underline: #FFFFFF;
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px ;
+    /*padding: 20px ;*/
 
     font-family: 'Montserrat', sans-serif;
 }
@@ -53,6 +60,6 @@ nav a {
     cursor: pointer;
 }
 
-header {
-    background: #ECCDB4;
-}
+/*header {*/
+/*    background: #ECCDB4;*/
+/*}*/

@@ -1,11 +1,11 @@
 .main-section {
-    /*background-image: url("../../components/images/img_1.png");*/
-    /*background-size: 100%;*/
-    /*background-repeat: no-repeat;*/
+    background-image: url("../../components/images/main-background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
 
     padding-bottom: 50px;
 
-    background: #ECCDB4
+    /*background: #ECCDB4*/
 }
 
 .main-ingredients {
