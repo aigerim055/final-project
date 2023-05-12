@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css'
 
+
 const CategoryItem = ({img, name}) => {
     return (
         <div className={'category-item'}>
@@ -10,4 +11,4 @@ const CategoryItem = ({img, name}) => {
     );
 };
 
-export default CategoryItem;
+export default Soups;
