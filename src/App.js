@@ -34,10 +34,9 @@ function App() {
                     <Route path={'/'} element={<HomePage/>}/>
                     <Route path={'/about-us'} element={<AboutUsPage/>}/>
                     <Route path={'/contacts'} element={<ContactsPage />}/>
-                    <Route path={'/meal-page'} element={<MealPage/>}/>
+                    <Route path={'/meal-page/:id'} element={<MealPage/>}/>
                     <Route path={'/basket'} element={<BasketPage/>}/>
                     <Route path={'/menu'} element={<MenuPage/>}/>
-
                 </Routes>
             </BrowserRouter>
         </>

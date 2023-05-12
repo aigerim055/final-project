@@ -35,7 +35,7 @@ const HomePage = () => {
                         {
                             popular_meals?.map((el) => (
                                 <div className={'col-3'} key={el.id}>
-                                    <MealCard img={el.img} name={el.name} rating={el.rating} price={el.price}/>
+                                    <MealCard id={el.id} img={el.img} name={el.name} rating={el.rating} price={el.price}/>
                                 </div>
                             ))
                         }
