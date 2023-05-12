@@ -1,0 +1,49 @@
+.menu-page {
+    background-image: url("./images/menu-background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+.categories{
+    display: flex;
+    gap: 10px;
+}
+.categories button {
+    background: #dcd3d3;
+    border-radius: 15px;
+    border: none;
+    padding: 5px 10px;
+    font-family: 'Montserrat' , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #523526;
+    margin: 20px 0 30px 0;
+}
+.categories button:hover {
+    background: #F79977;
+    box-shadow: 0 0 34px rgba(241, 241, 241, 0.5);
+    color: #523526;
+}
+button.activ {
+    background: #F79977;
+    box-shadow: 0 0 34px rgba(241, 241, 241, 0.5);
+    color: #523526;
+}
+.line{
+    border: 1px solid rgba(82, 53, 38, 0.69);
+    width: 100%;
+    margin-bottom: 40px;
+}
+.menu-page h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 49px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #523526;
+}
+

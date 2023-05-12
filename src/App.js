@@ -4,8 +4,10 @@ import AboutUsPage from "./pages/AboutUs";
 import ContactsPage from "./pages/ContactsPage";
 import {useDispatch} from "react-redux";
 import {useEffect} from "react";
-import {getCategories, getPopularMeals} from "./redux/action/mealAction";
+import {getBreakfast, getCategories, getPopularMeals} from "./redux/action/mealAction";
 import MealPage from "./pages/MealPage";
+import BasketPage from "./pages/BasketPage";
+import MenuPage from "./components/Menu";
 
 function App() {
 
@@ -15,6 +17,9 @@ function App() {
         dispatch(getPopularMeals())
 
     }, [])
+    useEffect(()=> {
+        dispatch(getBreakfast())
+    },[])
 
     // useEffect(() => {
     //     dispatch(getCategories())
@@ -30,6 +35,8 @@ function App() {
                     <Route path={'/about-us'} element={<AboutUsPage/>}/>
                     <Route path={'/contacts'} element={<ContactsPage />}/>
                     <Route path={'/meal-page/:id'} element={<MealPage/>}/>
+                    <Route path={'/basket'} element={<BasketPage/>}/>
+                    <Route path={'/menu'} element={<MenuPage/>}/>
                 </Routes>
             </BrowserRouter>
         </>
