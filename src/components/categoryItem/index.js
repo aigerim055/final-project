@@ -1,9 +1,11 @@
 import React from 'react';
+import './index.css'
 
-const CategoryItem = () => {
+const CategoryItem = ({img, name}) => {
     return (
-        <div>
-            <h1>category</h1>
+        <div className={'category-item'}>
+            <img src={img} alt=""/>
+            <h4>{name}</h4>
         </div>
     );
 };

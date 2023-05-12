@@ -13,6 +13,7 @@ function App() {
 
     useEffect(() => {
         dispatch(getPopularMeals())
+
     }, [])
 
     // useEffect(() => {
