@@ -13,6 +13,8 @@ export default  function MealReducer(state = initialState, action ) {
             return {...state, popular_meals: action.payload[0]}
         case 'GET_BREAKFAST':
             return {...state, breakfasts: action.payload}
+        case 'GET_MEALS':
+            return {...state, meals: action.payload}
         default:
             return state
     }

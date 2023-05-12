@@ -15,6 +15,7 @@ function App() {
 
     useEffect(() => {
         dispatch(getPopularMeals())
+
     }, [])
     useEffect(()=> {
         dispatch(getBreakfast())
