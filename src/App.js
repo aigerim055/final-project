@@ -4,7 +4,7 @@ import AboutUsPage from "./pages/AboutUs";
 import ContactsPage from "./pages/ContactsPage";
 import {useDispatch} from "react-redux";
 import {useEffect} from "react";
-import {getCategories, getPopularMeals} from "./redux/action/mealAction";
+import {getBreakfast, getCategories, getPopularMeals} from "./redux/action/mealAction";
 import MealPage from "./pages/MealPage";
 import BasketPage from "./pages/BasketPage";
 import MenuPage from "./components/Menu";
@@ -16,6 +16,9 @@ function App() {
     useEffect(() => {
         dispatch(getPopularMeals())
     }, [])
+    useEffect(()=> {
+        dispatch(getBreakfast())
+    },[])
 
     // useEffect(() => {
     //     dispatch(getCategories())

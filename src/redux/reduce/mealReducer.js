@@ -1,6 +1,7 @@
 const initialState = {
     meals: [],
-    popular_meals: []
+    popular_meals: [],
+    breakfasts: []
 }
 
 export default  function MealReducer(state = initialState, action ) {
@@ -10,6 +11,8 @@ export default  function MealReducer(state = initialState, action ) {
         case 'GET_CATEGORIES':
             console.log(action.payload[0])
             return {...state, popular_meals: action.payload[0]}
+        case 'GET_BREAKFAST':
+            return {...state, breakfasts: action.payload}
         default:
             return state
     }

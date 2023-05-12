@@ -17,3 +17,13 @@ export const getCategories = () => {
             })
     }
 }
+export const getBreakfast = () => {
+    return (dispatch) => {
+        axios('https://645bdb7a99b618d5f327dbf0.mockapi.io/macaronnaya/categories')
+            .then(({ data }) => {
+                const breakfasts = data.map((category) => category.breakfast);
+                dispatch({ type: 'GET_BREAKFAST', payload: breakfasts });
+            });
+    };
+};
+

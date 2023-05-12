@@ -2,8 +2,11 @@ import React from 'react';
 import './index.css'
 import Header from "../header";
 import {Link} from "react-router-dom";
+import {useSelector} from "react-redux";
+import MealCard from "../mealCard";
 
 const MenuPage= () => {
+    const breakfasts = useSelector(state => state.breakfasts)
     return (
         <>
             <div className="menu-page">
@@ -20,7 +23,16 @@ const MenuPage= () => {
                             <Link to={'/sauces'}><button>Соусы</button></Link>
                         </div>
                         <div className="line"></div>
-                        <h2>затраки</h2>
+                        <h2>завтраки</h2>
+                        <div className="row">
+                            {
+                                breakfasts.map((el) => (
+                                    <div className={'col-3'} key={el?.id}>
+                                        <MealCard img={el?.img} name={el?.name} rating={el?.rating} price={el?.price}/>
+                                    </div>
+                                ))
+                            }
+                        </div>
                     </div>
             </div>
 
