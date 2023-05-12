@@ -9,3 +9,11 @@ export const getPopularMeals = () => {
     }
 }
 
+export const getMeal = (id) => {
+    return (dispatch) => {
+        axios('https://645bdb7a99b618d5f327dbf0.mockapi.io/macaronnaya/categories')
+            .then(({data}) => {
+                dispatch({type: 'GET_MEALS', payload: data[0]})
+            })
+    }
+}
